@@ -27,6 +27,9 @@
             type="com.example.lunchtray.model.OrderViewModel" />
 
         <!-- TODO: Add the data binding variable for the AccompanimentMenuFragment -->
+        <variable
+            name="AccompanimentMenuFragment"
+            type="com.example.lunchtray.ui.order.AccompanimentMenuFragment" />
     </data>
 
 
@@ -52,6 +55,8 @@
                 <!-- TODO: set the accompaniment in the view model when the RadioButton is clicked -->
                 <RadioButton
                     android:id="@+id/bread"
+                    android:onClick='@{() -> viewModel.setAccompaniment("bread")}'
+                    android:checked='@{viewModel.accompaniment.name.equals(viewModel.menuItems["bread"].name)}'
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
@@ -80,6 +85,8 @@
                 <!-- TODO: set the accompaniment in the view model when the RadioButton is clicked -->
                 <RadioButton
                     android:id="@+id/berries"
+                    android:onClick='@{() -> viewModel.setAccompaniment("berries")}'
+                    android:checked='@{viewModel.accompaniment.name.equals(viewModel.menuItems["berries"].name)}'
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
@@ -111,6 +118,8 @@
                 <!-- TODO: set the accompaniment in the view model when the RadioButton is clicked -->
                 <RadioButton
                     android:id="@+id/pickles"
+                    android:onClick='@{() -> viewModel.setAccompaniment("pickles")}'
+                    android:checked='@{viewModel.accompaniment.name.equals(viewModel.menuItems["pickles"].name)}'
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?attr/textAppearanceBody1"
@@ -148,6 +157,7 @@
             <TextView
                 android:id="@+id/subtotal"
                 style="@style/Widget.LunchTray.TextView.Subtotal"
+                android:text="@{@string/subtotal(viewModel.subtotal)}"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/divider"
                 tools:text="Subtotal $5.00"/>
@@ -156,6 +166,7 @@
             <Button
                 android:id="@+id/cancel_button"
                 style="@style/Widget.Order.Button.Cancel"
+                android:onClick="@{() -> AccompanimentMenuFragment.cancelOrder()}"
                 app:layout_constraintEnd_toStartOf="@id/next_button"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@id/next_button" />
@@ -164,6 +175,7 @@
             <Button
                 android:id="@+id/next_button"
                 style="@style/Widget.Order.Button.Next"
+                android:onClick="@{() -> AccompanimentMenuFragment.goToNextScreen()}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@id/cancel_button"

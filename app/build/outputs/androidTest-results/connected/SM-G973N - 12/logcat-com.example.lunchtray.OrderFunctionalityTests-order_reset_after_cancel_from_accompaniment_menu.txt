@@ -1,0 +1,839 @@
+08-07 17:53:07.188  7881  7906 I TestRunner: started: order_reset_after_cancel_from_accompaniment_menu(com.example.lunchtray.OrderFunctionalityTests)
+08-07 17:53:07.189  2001  2001 I RecentsView: onTaskRemoved() taskId : 8205
+08-07 17:53:07.189  2001  2001 I RecentsView: onTaskRemoved() taskId : 8205
+08-07 17:53:07.190  2001  2001 I RecentsView: onTaskRemoved() taskId : 8205
+08-07 17:53:07.190  2001  2001 I RecentsView: onTaskRemoved() taskId : 8205
+08-07 17:53:07.201   628   628 I Layer   : id=624594 removeFromCurrentState ActivityRecord{ac375aa u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity t8205}#0 (122)
+08-07 17:53:07.201   628   628 I Layer   : id=624586 removeFromCurrentState Task=8205#0 (122)
+08-07 17:53:07.201   628   628 I Layer   : id=624612 removeFromCurrentState Task=8205#1 (122)
+08-07 17:53:07.201   628   628 I SurfaceFlinger: id=624594 Removed ActivityRecord{ac375aa u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity t8205}#0 (122)
+08-07 17:53:07.201  7881  7906 W Settings: Setting always_finish_activities has moved from android.provider.Settings.System to android.provider.Settings.Global, returning read-only value.
+08-07 17:53:07.202   628   628 I SurfaceFlinger: id=624612 Removed Task=8205#1 (122)
+08-07 17:53:07.202   628   628 I Layer   : id=624612 Destroyed Task=8205#1
+08-07 17:53:07.202   628   628 I Layer   : id=624594 Destroyed ActivityRecord{ac375aa u0 com.example.lunchtray/androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity t8205}#0
+08-07 17:53:07.208   952  2080 I SemDvfsHyPerManager: acquire hyper - AMS_APP_SWITCH/952@16, type = -999
+08-07 17:53:07.209   628  2718 I SurfaceFlinger: id=624613 createSurf (0x0),-1 flag=24004, Task=8206#0
+08-07 17:53:07.209   952  2544 D PkgPredictorService-IpmAdcpController: create a new DexPreloadTask pkg:com.example.lunchtray  path:/data/app/~~6ZHKSOyH6C4aieMxQuPYLA==/com.example.lunchtray-clkp0OFoH3ds7cF62fs1rg==
+08-07 17:53:07.209  3311  3311 I SemDvfsHyPerManager: acquire hyper - APP_START_SHORT/3311@13, type = -999
+08-07 17:53:07.210   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 469012  [952 / 16]    HINT : AMS_APP_SWITCH    list :
+08-07 17:53:07.211   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5526163  [3311 / 13]    HINT : APP_START    list : [TIMEOUT / 1500]
+08-07 17:53:07.211   628   963 I SurfaceFlinger: id=624614 createSurf (0x0),-1 flag=80004, ActivityRecord{a9c83a9 u0 com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity t8206}#0
+08-07 17:53:07.216   534   541 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10704[I] (10)0x30000->*launch*[S]
+08-07 17:53:07.217   534   541 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10704[I] (10)0x30000->*launch*[S]
+08-07 17:53:07.218   952  1409 I SemDvfsHyPerManager: acquire hyper - AMS_APP_LAUNCH/952@17, type = -999
+08-07 17:53:07.218   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 469982  [952 / 17]    HINT : AMS_APP_LAUNCH    list :
+08-07 17:53:07.218  3311  3311 I SemDvfsHyPerManager: acquire hyper - APP_START/3311@14, type = -999
+08-07 17:53:07.219   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5529489  [3311 / 14]    HINT : APP_START    list :
+08-07 17:53:07.219  2001  2001 I BaseActivity: removeActivityFlags, flags : 16
+08-07 17:53:07.219  2001  2001 I BaseActivity: removeActivityFlags, flags : 6
+08-07 17:53:07.219  2001  2001 I DragController: endDrag
+08-07 17:53:07.219  2001  2001 W LauncherAppWidgetHost: setShouldListenFlag, mFlags:15 flag:resume on:false isFront:false
+08-07 17:53:07.220  2001  2001 I DecorView: notifyKeepScreenOnChanged: keepScreenOn=false
+08-07 17:53:07.221  2001  2001 I SPayUpdater: updateSpayHandler launcher activity is paused false
+08-07 17:53:07.221  1411  1411 D PipMotionHelper: animateToOffset: originalBounds=Rect(533, 1828 - 1038, 2112) offset=0 callers=
+08-07 17:53:07.221  1411  1411 D PipMotionHelper:     com.android.wm.shell.pip.phone.PipTouchHandler.onMovementBoundsChanged:482
+08-07 17:53:07.221  1411  1411 D PipMotionHelper:     com.android.wm.shell.pip.phone.PipController.updateMovementBounds:721
+08-07 17:53:07.221  1411  1411 D PipMotionHelper:     com.android.wm.shell.pip.phone.PipController.lambda$init$3:351
+08-07 17:53:07.221  1411  1411 D PipMotionHelper:     com.android.wm.shell.pip.phone.PipController.$r8$lambda$u15Oj_b57njSWegfZTV6TpliGaw:0
+08-07 17:53:07.221  1411  1411 D PipMotionHelper:     com.android.wm.shell.pip.phone.PipController$$ExternalSyntheticLambda0.accept:8
+08-07 17:53:07.221   952  3366 D InputTransport: Input channel constructed: '410b165', fd=1713
+08-07 17:53:07.221   952  3366 D InputTransport: Input channel constructed: '410b165', fd=1763
+08-07 17:53:07.222   952  3366 D InputTransport: Input channel constructed: '410b165', fd=1778
+08-07 17:53:07.222   628   963 I SurfaceFlinger: id=624615 createSurf (0x0),-1 flag=80004, 410b165 Splash Screen com.example.lunchtray#0
+08-07 17:53:07.222   952  3366 D InputTransport: Input channel destroyed: '410b165', fd=1778
+08-07 17:53:07.223  1411  1558 I ViewRootImpl@7be0951[lunchtray]: setView = android.widget.FrameLayout@bc53a24 TM=true
+08-07 17:53:07.225   952  1409 D InputDispatcher: Focused application set to (0): a9c83a9
+08-07 17:53:07.228   952  3366 V WindowManager: Relayout Window{410b165 u0 Splash Screen com.example.lunchtray}: viewVisibility=0 req=1080x2280 d0
+08-07 17:53:07.228   628   963 I SurfaceFlinger: id=624616 createSurf (1080x2280),-3 flag=40004, Splash Screen com.example.lunchtray$_1411#0
+08-07 17:53:07.230   952  3366 V WindowManager: Relayout hash=410b165, pid=1411: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001
+08-07 17:53:07.230   952  3366 V WindowManager:   fl=81030118
+08-07 17:53:07.230   952  3366 V WindowManager:   pfl=36000010
+08-07 17:53:07.230   952  3366 V WindowManager:   bhv=DEFAULT
+08-07 17:53:07.230   952  3366 V WindowManager:   fitSides= naviIconColor=0}
+08-07 17:53:07.231  1411  1558 I ViewRootImpl@7be0951[lunchtray]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=7 res=0x7 s={true 512224678896} ch=true fn=-1
+08-07 17:53:07.231  1411  1558 I ViewRootImpl@7be0951[lunchtray]: [DP] dp(1) 0 android.view.ViewRootImpl.reportNextDraw:11442 android.view.ViewRootImpl.performTraversals:4198 android.view.ViewRootImpl.doTraversal:2924
+08-07 17:53:07.231  1411  1558 D ViewRootImpl@7be0951[lunchtray]: Creating frameDrawingCallback nextDrawUseBlastSync=false reportNextDraw=true hasBlurUpdates=false
+08-07 17:53:07.231  1411  1558 D ViewRootImpl@7be0951[lunchtray]: Creating frameCompleteCallback
+08-07 17:53:07.234  1411  1640 D OpenGLRenderer: eglCreateWindowSurface
+08-07 17:53:07.236   952  3366 V WindowManager: Relayout Window{72e35ce u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=0 req=1080x2280 d0
+08-07 17:53:07.237  1411  2199 D ViewRootImpl@7be0951[lunchtray]: Received frameDrawingCallback frameNum=1. Creating transactionCompleteCallback=false
+08-07 17:53:07.239   952  3366 V WindowManager: Relayout hash=72e35ce, pid=2001: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+08-07 17:53:07.239   952  3366 V WindowManager:   fl=81910100
+08-07 17:53:07.239   952  3366 V WindowManager:   pfl=1e020040
+08-07 17:53:07.239   952  3366 V WindowManager:   vsysui=1700
+08-07 17:53:07.239   952  3366 V WindowManager:   apr=LIGHT_STATUS_BARS LIGHT_NAVIGATION_BARS
+08-07 17:53:07.239   952  3366 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+08-07 17:53:07.239   952  3366 V WindowManager:   fitSides= naviIconColor=0}
+08-07 17:53:07.240  2001  2001 I ViewRootImpl@67bf432[LauncherActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=4 res=0x1 s={true 512220650256} ch=false fn=18
+08-07 17:53:07.241   952  1034 I SemPersonaManager: SecureFolder personaId = 150
+08-07 17:53:07.241  1411  1640 D ViewRootImpl@7be0951[lunchtray]: Received frameCompleteCallback  lastAcquiredFrameNum=1 lastAttemptedDrawFrameNum=1
+08-07 17:53:07.242  1411  1558 I ViewRootImpl@7be0951[lunchtray]: [DP] pdf(0) 0 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:5000 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938
+08-07 17:53:07.242  1411  1558 I ViewRootImpl@7be0951[lunchtray]: [DP] rdf()
+08-07 17:53:07.242  1411  1558 D ViewRootImpl@7be0951[lunchtray]: reportDrawFinished (fn: -1)
+08-07 17:53:07.244   952  1327 D NetdEventListenerService: DNS Requested by : 761, 1000, 0
+08-07 17:53:07.246  1411  1411 D FullscreenTaskListener: Fullscreen Task Appeared: #8206, caller=com.android.wm.shell.ShellTaskOrganizer.onTaskAppeared:387 com.android.wm.shell.ShellTaskOrganizer.onTaskAppeared:376 android.window.TaskOrganizer$1.lambda$onTaskAppeared$4$TaskOrganizer$1:297
+08-07 17:53:07.247   628   963 I SurfaceFlinger: id=624617 createSurf (0x0),-1 flag=24000, Surface(name=Task=1)/@0x71397ea - animation-leash of app_transition#0
+08-07 17:53:07.251   628   963 I SurfaceFlinger: id=624618 createSurf (0x0),-1 flag=24004, Surface(name=Task=8206)/@0x232724 - animation-leash of app_transition#0
+08-07 17:53:07.252   952  1409 D InputDispatcher: Focus left window (0): 72e35ce com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity
+08-07 17:53:07.253  2001  2001 I ViewRootImpl@67bf432[LauncherActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+08-07 17:53:07.253   628   963 I SurfaceFlinger: id=624619 createSurf (0x0),-1 flag=24000, Surface(name=cc3f67a StatusBar)/@0x6cfa557 - animation-leash of insets_animation#0
+08-07 17:53:07.253  2001  2001 I BaseActivity: removeActivityFlags, flags : 8
+08-07 17:53:07.254   628   963 I SurfaceFlinger: id=624620 createSurf (0x0),-1 flag=24000, Surface(name=5b03b71 NavigationBar0)/@0xbaf262 - animation-leash of insets_animation#0
+08-07 17:53:07.259  1411  1558 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_NAVIGATION_BAR on Splash Screen com.example.lunchtray
+08-07 17:53:07.260  7881  7881 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb in: PRE_ON_CREATE
+08-07 17:53:07.260  1411  1558 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_STATUS_BAR on Splash Screen com.example.lunchtray
+08-07 17:53:07.261   952  1034 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+08-07 17:53:07.262  7881  7881 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb
+08-07 17:53:07.267   952  2595 I MediaSessionMonitor: Media session stopped : controllerList empty
+08-07 17:53:07.268   628   628 I Layer   : id=624604 removeFromCurrentState Surface(name=5b03b71 NavigationBar0)/@0xbaf262 - animation-leash of insets_animation#1 (128)
+08-07 17:53:07.268   628   628 I Layer   : id=69 removeFromCurrentState 5b03b71 NavigationBar0#0 (128)
+08-07 17:53:07.268   628   628 I Layer   : id=83 removeFromCurrentState NavigationBar0$_1411#0 (128)
+08-07 17:53:07.269   628   628 I Layer   : id=624603 removeFromCurrentState Surface(name=cc3f67a StatusBar)/@0x6cfa557 - animation-leash of insets_animation#1 (128)
+08-07 17:53:07.269   628   628 I Layer   : id=69 addToCurrentState 5b03b71 NavigationBar0#0 (128)
+08-07 17:53:07.269   628   628 I Layer   : id=83 addToCurrentState NavigationBar0$_1411#0 (128)
+08-07 17:53:07.269  2001  2001 I BadgeRenderer: Invalid count : 0
+08-07 17:53:07.269  2001  2001 I BadgeRenderer: Invalid count : 0
+08-07 17:53:07.271   628   963 I SurfaceFlinger: id=624604 Removed Surface(name=5b03b71 NavigationBar0)/@0xbaf262 - animation-leash of insets_animation#1 (128)
+08-07 17:53:07.271   628   963 I SurfaceFlinger: id=624603 Removed Surface(name=cc3f67a StatusBar)/@0x6cfa557 - animation-leash of insets_animation#1 (128)
+08-07 17:53:07.277  7881  7881 I DecorView: [INFO] isPopOver=false, config=true
+08-07 17:53:07.277  7881  7881 I DecorView: updateCaptionType >> DecorView@b1f50a9[], isFloating=false, isApplication=true, hasWindowControllerCallback=true, hasWindowDecorCaption=false
+08-07 17:53:07.278  7881  7881 D DecorView: setCaptionType = 0, this = DecorView@b1f50a9[]
+08-07 17:53:07.280  8085  8085 I Utils   : HomePackage : com.sec.android.app.launcher, resumePackageName : com.example.lunchtray
+08-07 17:53:07.280 24757 24769 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 7881 , isNotify : true , isForeground : true , fg list : [2001, 7881]
+08-07 17:53:07.281 24757 25074 I SAMSUNGWALLET: [ResetData] getSAResetDialogFlag : false
+08-07 17:53:07.282  1411  1411 D NavigationBar: onSystemBarAttributesChanged() -  displayId:0, appearance:0, navbarColorManagedByIme:false
+08-07 17:53:07.282  1411  1411 V Navbar.Store: handleEvent [EventType] GET_BOOL_REGION_SAMPLING_ENABLED [Module] LightBarController  KEYS_DEFAULT=false
+08-07 17:53:07.282  1411  1411 V Navbar.Store: --[Band]COLOR_PACK_GET_REGION_SAMPLING_ENABLED
+08-07 17:53:07.282  1411  1411 V Navbar.Store: ----getValue(BOOL_REGION_SAMPLING_ENABLED)=false
+08-07 17:53:07.283  7881  7881 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=420 msg=resources_loaded
+08-07 17:53:07.283  2001 19839 I TouchInteractionService: onSystemUiStateChanged, stateFlags : 131072
+08-07 17:53:07.284  7881  7881 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb in: CREATED
+08-07 17:53:07.284 24757 25074 I SAMSUNGWALLET: [Hint_bxa] isHomePackageRunning topPkgName = com.example.lunchtray, topClsName = androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity, return false , se : false
+08-07 17:53:07.284  1411  1411 D SecLightBarControlHelper: updateStatus(WHITE icon) NumLightStacks:0, NumStacks:1, IndexLightStack:-1, StatusBarMode:0, StatusBarState:SHD, NeedDarkFontFromWallpaper:false, isWhiteKeyguardStatusBarBySettings:false
+08-07 17:53:07.284  2001  2001 I TouchInteractionService: onSystemUiFlagsChanged, userUnlocked
+08-07 17:53:07.284 24757 24757 I SAMSUNGWALLET: [Hint_PayHintService] Hint Status - HIDE : Home Package Not Running
+08-07 17:53:07.285 24757 24757 I SemUiSupportService: getWindowAttributes()
+08-07 17:53:07.285   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.285   628   628 I Layer   : id=624603 Destroyed Surface(name=cc3f67a StatusBar)/@0x6cfa557 - animation-leash of insets_animation#1
+08-07 17:53:07.285   628   628 I Layer   : id=624604 Destroyed Surface(name=5b03b71 NavigationBar0)/@0xbaf262 - animation-leash of insets_animation#1
+08-07 17:53:07.285  7881  7881 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb
+08-07 17:53:07.287   952  1409 V WindowManager: Relayout Window{82f2704 u0 com.samsung.android.spay.pay.HintService}: viewVisibility=8 req=521x63 d0
+08-07 17:53:07.288  7881  7881 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb in: STARTED
+08-07 17:53:07.289  7881  7881 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb
+08-07 17:53:07.289   628   628 D SurfaceFlinger: Display 0 HWC layers:
+08-07 17:53:07.289   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e0a3d0 | 0100 | RGBx_8888    |   50.0    0.0 1130.0 2280.0 |    0    0 1080 2280 | Wallpaper BBQ wrapper#0
+08-07 17:53:07.289   628   628 D SurfaceFlinger:      DEVICE | 0x78e3de3010 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.sec.android.app.launcher/com.sec[...].activities.LauncherActivity$_2001#0
+08-07 17:53:07.289   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e20cf0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |   76  159 1004 2121 | Splash Screen com.example.lunchtray$_1411#0
+08-07 17:53:07.289   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e110f0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1411#0
+08-07 17:53:07.289   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e1bd10 | 0100 | RGBA_8888    |    0.0    0.0   67.0  457.0 |    0  410   67  867 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8085#0
+08-07 17:53:07.289   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e02930 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2154 1080 2280 | NavigationBar0$_1411#0
+08-07 17:53:07.289   628   628 D SurfaceFlinger:      DEVICE | 0x78e3dfb310 | 0100 | RGBA_8888    |    0.0    0.0  521.0   63.0 |  279 2217  800 2280 | com.samsung.and
+08-07 17:53:07.289   628   628 D SurfaceFlinger: roid.spay.pay.HintService$_24757#0
+08-07 17:53:07.289   628   628 D SurfaceFlinger:
+08-07 17:53:07.292   952  3368 V WindowManager: Relayout Window{13616e6 u0 NotificationShade}: viewVisibility=4 req=1080x2280 d0
+08-07 17:53:07.293   952  1409 V WindowManager: Relayout hash=82f2704, pid=24757: mAttrs={(0,0)(521x63) gr=BOTTOM CENTER sim={adjust=pan} layoutInDisplayCutoutMode=shortEdges ty=NAVIGATION_BAR_PANEL fmt=TRANSLUCENT
+08-07 17:53:07.293   952  1409 V WindowManager:   fl=1800308
+08-07 17:53:07.293   952  1409 V WindowManager:   pfl=12000000
+08-07 17:53:07.293   952  1409 V WindowManager:   bhv=DEFAULT
+08-07 17:53:07.293   952  1409 V WindowManager:   fitTypes=NAVIGATION_BARS
+08-07 17:53:07.293   952  1409 V WindowManager:   fitSides=LEFT RIGHT naviIconColor=0}
+08-07 17:53:07.294   952  3368 V WindowManager: Relayout hash=13616e6, pid=1411: mAttrs={(0,0)(fillxfill) gr=TOP CENTER_VERTICAL sim={adjust=resize} layoutInDisplayCutoutMode=always ty=2040 fmt=TRANSLUCENT
+08-07 17:53:07.294   952  3368 V WindowManager:   fl=81840048
+08-07 17:53:07.294   952  3368 V WindowManager:   pfl=1b000000
+08-07 17:53:07.294   952  3368 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE naviIconColor=0
+08-07 17:53:07.294   952  3368 V WindowManager:   sfl=42000}
+08-07 17:53:07.294  1411  1411 I ViewRootImpl@edc7ce0[NotificationShade]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)4 dur=3 res=0x1 s={false 0} ch=false fn=-1
+08-07 17:53:07.295   628   642 I SurfaceFlinger: id=624621 createSurf (0x0),-1 flag=80004, ActivityRecord{25f59b4 u0 com.example.lunchtray/.MainActivity t8206}#0
+08-07 17:53:07.296 24757 24757 I ViewRootImpl@2325f75[HintService]: Relayout returned: old=(279,2217,800,2280) new=(279,2217,800,2280) req=(521,63)8 dur=7 res=0x5 s={false 0} ch=true fn=2
+08-07 17:53:07.298  1411  1430 I ViewRootImpl@7be0951[lunchtray]: Resizing android.view.ViewRootImpl@3bcb353: frame=[0,0][1080,2280] reportDraw=false forceLayout=false backDropFrame=Rect(0, 0 - 1080, 2280)
+08-07 17:53:07.298  1411  1558 I ViewRootImpl@7be0951[lunchtray]: handleResized, msg = 4 frames=ClientWindowFrames{frame=[0,0][1080,2280] display=[0,0][1080,2280] backdrop=[0,0][1080,2280]} forceNextWindowRelayout=false displayId=0 frameChanged=false backdropFrameChanged=false configChanged=false displayChanged=false mNextDrawUseBlastSync=false mergedConfiguration={mGlobalConfig={1.1 450mcc8mnc [ko_KR,en_US] ldltr sw411dp w411dp h777dp 420dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 112 - 1080, 2154) mMaxBounds=Rect(0, 0 - 1080, 2280) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOver=undefined mFreeformTaskPinningState=undefined} as.76 s.53109 fontWeightAdjustment=0 ff=0 bf=0 bts=0 desktop/d dm/n ?dc ?dcui ?dcaf enb/d themeSeq=0} mOverrideConfig={1.1 450mcc8mnc [ko_KR,en_US] ldltr sw411dp w411dp h777dp 420dpi nrml long port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 112 - 1080, 2154) mMaxBounds=Rect(0, 0 - 1080, 2280) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0 mPopOver=off mFreeformTaskPinningState=unpinned} as.76 s.1 fontWeightAdjustment=0 ff=0 bf=0 bts=0 desktop/d dm/n dc/d ?dcui ?dcaf enb/d themeSeq=0}}
+08-07 17:53:07.299   952  2550 W NetlinkSocket: maximum read
+08-07 17:53:07.299  7881  7881 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb in: RESUMED
+08-07 17:53:07.299   952  1034 D PersonaActivityHelper: Activity not in resumed state, do not run immediate lock
+08-07 17:53:07.299  1411  1411 D KeyguardBottomAreaShortcutView: updateCameraVisibility isCameraDisabled:false visible:true
+08-07 17:53:07.300  1411  1411 D KeyguardUsimTextView: updateText(simState): READY
+08-07 17:53:07.300  1411  1411 D KeyguardBottomAreaShortcutView: mIndicationArea margin start : 163, end : 163, bottom : 405
+08-07 17:53:07.300  1411  1411 D QS      : setQSExpansion 0.0 -118.475
+08-07 17:53:07.300  1411  1411 D QS      : setQSExpansion 0.0 -118.475
+08-07 17:53:07.301  1411  1411 D MediaControlPanel: mActionButtonNumCollapsed = 3, mActionButtonNumExpand = 4
+08-07 17:53:07.301  7881  7881 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb
+08-07 17:53:07.302   628   628 I Layer   : id=624610 removeFromCurrentState com.samsung.android.spay.pay.HintService$_24757#0 (127)
+08-07 17:53:07.302  1411  1411 D IndicatorGardenInputProperty: updateRotation() prv:-1 >> new:0
+08-07 17:53:07.302  1411  1411 D DeviceState: getDeviceResolutionPixelSize - currentDensity = 420 deviceDensity = 420 initialDisplaySizeFactor = 1440 currentDisplaySizeFactor = 1080 initialDisplayDensity = 560 proportionalDensity = 420 proportionalPixel = 66
+08-07 17:53:07.302  1411  1411 D DeviceState: getDeviceResolutionPixelSize - currentDensity = 420 deviceDensity = 420 initialDisplaySizeFactor = 1440 currentDisplaySizeFactor = 1080 initialDisplayDensity = 560 proportionalDensity = 420 proportionalPixel = 27
+08-07 17:53:07.302  1411  1411 D DeviceState: getDeviceResolutionPixelSize - currentDensity = 420 deviceDensity = 420 initialDisplaySizeFactor = 1440 currentDisplaySizeFactor = 1080 initialDisplayDensity = 560 proportionalDensity = 420 proportionalPixel = 24
+08-07 17:53:07.302   628   628 I SurfaceFlinger: id=624610 Removed com.samsung.android.spay.pay.HintService$_24757#0 (127)
+08-07 17:53:07.303  1411  1411 D MediaControlPanel: mActionButtonNumCollapsed = 3, mActionButtonNumExpand = 4
+08-07 17:53:07.304   628   628 I Layer   : id=624610 Destroyed com.samsung.android.spay.pay.HintService$_24757#0
+08-07 17:53:07.304  7881  7881 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb in: PAUSED
+08-07 17:53:07.305  7881  7881 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb
+08-07 17:53:07.305   628   628 D SurfaceFlinger: Display 0 HWC layers:
+08-07 17:53:07.305   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e0a3d0 | 0100 | RGBx_8888    |   50.0    0.0 1130.0 2280.0 |    0    0 1080 2280 | Wallpaper BBQ wrapper#0
+08-07 17:53:07.305   628   628 D SurfaceFlinger:      DEVICE | 0x78e3de3010 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.sec.android.app.launcher/com.sec[...].activities.LauncherActivity$_2001#0
+08-07 17:53:07.305   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e20cf0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |   67  141 1013 2139 | Splash Screen com.example.lunchtray$_1411#0
+08-07 17:53:07.305   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e0f170 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1411#0
+08-07 17:53:07.305   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e1bd10 | 0100 | RGBA_8888    |    0.0    0.0   67.0  457.0 |    0  410   67  867 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8085#0
+08-07 17:53:07.305   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e19b50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2154 1080 2280 | NavigationBar0$_1411#0
+08-07 17:53:07.305   628   628 D SurfaceFlinger:
+08-07 17:53:07.309   952  3368 D InputDispatcher: Focused application set to (0): 25f59b4
+08-07 17:53:07.314   952  1034 I SemPersonaManager: SecureFolder personaId = 150
+08-07 17:53:07.333   952  1034 D EnterpriseDeviceManagerService: isMdmAdminPresentInternal() : MDM Admin Found - com.samsung.knox.securefolder
+08-07 17:53:07.337  7881  7881 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@36dc148 in: PRE_ON_CREATE
+08-07 17:53:07.338  8085  8085 I Utils   : HomePackage : com.sec.android.app.launcher, resumePackageName : com.example.lunchtray
+08-07 17:53:07.338   952  2595 I MediaSessionMonitor: Media session stopped : controllerList empty
+08-07 17:53:07.338  7881  7881 V ActivityScenario: Activity lifecycle changed event received but ignored because the reported transition was not ON_CREATE while the last known transition was PRE_ON_CREATE
+08-07 17:53:07.341   952  2550 W NetlinkSocket: maximum read
+08-07 17:53:07.398   952  1307 D SemNscXgbMsL1: Probability - Cloud gaming: [0.121774174]
+08-07 17:53:07.398   952  1307 D SemNscXgbMsL1: Probability - Real time: [0.11398742]
+08-07 17:53:07.398   952  1307 D SemNscXgbMsL1: Probability - Non real time: [0.9165544]
+08-07 17:53:07.398   952  1307 D SemNscXgbMsL1: 1 sample inference time: 0.212962 msecs
+08-07 17:53:07.399   952  1307 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 0.453577 msecs
+08-07 17:53:07.399   952  1307 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 0.406346 msecs
+08-07 17:53:07.408  7881  7881 I DecorView: [INFO] isPopOver=false, config=true
+08-07 17:53:07.408  7881  7881 I DecorView: updateCaptionType >> DecorView@a0077ec[], isFloating=false, isApplication=true, hasWindowControllerCallback=true, hasWindowDecorCaption=false
+08-07 17:53:07.408  7881  7881 D DecorView: setCaptionType = 0, this = DecorView@a0077ec[]
+08-07 17:53:07.410  7881  7881 I DecorView: getCurrentDensityDpi: from real metrics. densityDpi=420 msg=resources_loaded
+08-07 17:53:07.411  2001 19839 I RecentModel: onTaskStackChangedBackground
+08-07 17:53:07.411   952  2550 W NetlinkSocket: maximum read
+08-07 17:53:07.412  2001 19839 I RecentTasksList: getTaskKeys, numTasks :3 callback : com.android.quickstep.-$$Lambda$RecentsModel$k1Mm-BV64Bc89eJHYugywZmW_Js@919ed60
+08-07 17:53:07.414  2001  2079 I RecentTasksList: loadTasksInBackground() task id : 8206
+08-07 17:53:07.414  3311  3719 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3311@22, type = 1090523139
+08-07 17:53:07.414  3311  3719 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3311@24, type = 1090523139
+08-07 17:53:07.416   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5556133  [3311 / 22]    HINT :      list : [TABoost / 5]
+08-07 17:53:07.416   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5562804  [3311 / 24]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+08-07 17:53:07.435  7881  7881 W ample.lunchtra: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+08-07 17:53:07.435  7881  7881 W ample.lunchtra: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+08-07 17:53:07.443  7881  7881 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@36dc148 in: CREATED
+08-07 17:53:07.444  7881  7881 V ActivityScenario: Update currentActivityStage to CREATED, currentActivity=com.example.lunchtray.MainActivity@36dc148
+08-07 17:53:07.468  7881  7881 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@36dc148 in: STARTED
+08-07 17:53:07.469  7881  7881 V ActivityScenario: Update currentActivityStage to STARTED, currentActivity=com.example.lunchtray.MainActivity@36dc148
+08-07 17:53:07.470  7881  7881 D LifecycleMonitor: Lifecycle status change: com.example.lunchtray.MainActivity@36dc148 in: RESUMED
+08-07 17:53:07.470  7881  7881 V ActivityScenario: Update currentActivityStage to RESUMED, currentActivity=com.example.lunchtray.MainActivity@36dc148
+08-07 17:53:07.477   952  3368 D InputTransport: Input channel constructed: '9c00d76', fd=1975
+08-07 17:53:07.477   952  3368 D InputTransport: Input channel constructed: '9c00d76', fd=1977
+08-07 17:53:07.477   952  3368 D InputTransport: Input channel constructed: '9c00d76', fd=1985
+08-07 17:53:07.478   628  2111 I SurfaceFlinger: id=624622 createSurf (0x0),-1 flag=80004, 9c00d76 com.example.lunchtray/com.example.lunchtray.MainActivity#0
+08-07 17:53:07.478   952  3368 D InputTransport: Input channel destroyed: '9c00d76', fd=1985
+08-07 17:53:07.480  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: setView = com.android.internal.policy.DecorView@a0077ec TM=true
+08-07 17:53:07.481   952  1095 D AnalyticsContainerHandler: handleMessage : { when=0 what=1 target=com.android.server.knox.KnoxAnalyticsContainer$AnalyticsHandler }
+08-07 17:53:07.497   952  3368 V WindowManager: Relayout Window{9c00d76 u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2280 d0
+08-07 17:53:07.497   628  2111 I SurfaceFlinger: id=624623 createSurf (1x1),-3 flag=40004, com.example.lunchtray/com.example.lunchtray.MainActivity$_7881#0
+08-07 17:53:07.500   628  2111 I SurfaceFlinger: id=624624 createSurf (0x0),-1 flag=24000, Surface(name=cc3f67a StatusBar)/@0x6cfa557 - animation-leash of insets_animation#1
+08-07 17:53:07.500   628  2111 I SurfaceFlinger: id=624625 createSurf (0x0),-1 flag=24000, Surface(name=5b03b71 NavigationBar0)/@0xbaf262 - animation-leash of insets_animation#1
+08-07 17:53:07.501   952  3368 V WindowManager: Relayout hash=9c00d76, pid=7881: mAttrs={(0,0)(fillxfill) sim={adjust=pan forwardNavigation} ty=BASE_APPLICATION wanim=0x1030303
+08-07 17:53:07.501   952  3368 V WindowManager:   fl=81810100
+08-07 17:53:07.501   952  3368 V WindowManager:   pfl=12020040
+08-07 17:53:07.501   952  3368 V WindowManager:   apr=LIGHT_NAVIGATION_BARS
+08-07 17:53:07.501   952  3368 V WindowManager:   bhv=DEFAULT
+08-07 17:53:07.501   952  3368 V WindowManager:   fitSides= naviIconColor=0
+08-07 17:53:07.501   952  3368 V WindowManager:   sfl=100000}
+08-07 17:53:07.503  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=6 res=0x7 s={true 512217319216} ch=true fn=-1
+08-07 17:53:07.504  7881  7915 D OpenGLRenderer: eglCreateWindowSurface
+08-07 17:53:07.508  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: [DP] dp(1) 1 android.view.ViewRootImpl.reportNextDraw:11442 android.view.ViewRootImpl.performTraversals:4198 android.view.ViewRootImpl.doTraversal:2924
+08-07 17:53:07.508  7881  7881 D ViewRootImpl@d3f350c[MainActivity]: Creating frameDrawingCallback nextDrawUseBlastSync=false reportNextDraw=true hasBlurUpdates=false
+08-07 17:53:07.508  7881  7881 D ViewRootImpl@d3f350c[MainActivity]: Creating frameCompleteCallback
+08-07 17:53:07.514  7881  7930 D ViewRootImpl@d3f350c[MainActivity]: Received frameDrawingCallback frameNum=1. Creating transactionCompleteCallback=false
+08-07 17:53:07.517  7881  7915 D ViewRootImpl@d3f350c[MainActivity]: Received frameCompleteCallback  lastAcquiredFrameNum=1 lastAttemptedDrawFrameNum=1
+08-07 17:53:07.518  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: [DP] pdf(0) 1 android.view.ViewRootImpl.lambda$addFrameCompleteCallbackIfNeeded$3$ViewRootImpl:5000 android.view.ViewRootImpl$$ExternalSyntheticLambda16.run:6 android.os.Handler.handleCallback:938
+08-07 17:53:07.518  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: [DP] rdf()
+08-07 17:53:07.518  7881  7881 D ViewRootImpl@d3f350c[MainActivity]: reportDrawFinished (fn: -1)
+08-07 17:53:07.519   628   628 I Layer   : id=624619 removeFromCurrentState Surface(name=cc3f67a StatusBar)/@0x6cfa557 - animation-leash of insets_animation#0 (130)
+08-07 17:53:07.519   628   628 I Layer   : id=624620 removeFromCurrentState Surface(name=5b03b71 NavigationBar0)/@0xbaf262 - animation-leash of insets_animation#0 (130)
+08-07 17:53:07.519   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.519   628   628 I SurfaceFlinger: id=624619 Removed Surface(name=cc3f67a StatusBar)/@0x6cfa557 - animation-leash of insets_animation#0 (130)
+08-07 17:53:07.520   628   628 I SurfaceFlinger: id=624620 Removed Surface(name=5b03b71 NavigationBar0)/@0xbaf262 - animation-leash of insets_animation#0 (130)
+08-07 17:53:07.520   628   628 I Layer   : id=624619 Destroyed Surface(name=cc3f67a StatusBar)/@0x6cfa557 - animation-leash of insets_animation#0
+08-07 17:53:07.520   628   628 I Layer   : id=624620 Destroyed Surface(name=5b03b71 NavigationBar0)/@0xbaf262 - animation-leash of insets_animation#0
+08-07 17:53:07.521   952  1031 I PkgPredictorService-SecIpmManagerServiceImpl: reportToNAP uid:10704 com.example.lunchtray/com.example.lunchtray.MainActivity thisTime:312
+08-07 17:53:07.521   952  3366 D InputDispatcher: Focus request (0): 9c00d76 com.example.lunchtray/com.example.lunchtray.MainActivity but waiting because NOT_VISIBLE
+08-07 17:53:07.522   628   963 I SurfaceFlinger: id=624626 createSurf (0x0),-1 flag=24000, Surface(name=9c00d76 com.example.lunchtray/com.example.lunchtray.MainActivity)/@0xe21466f - animation-leash of starting_reveal#0
+08-07 17:53:07.522   952  1031 I ActivityTaskManager: Displayed com.example.lunchtray/.MainActivity: +312ms
+08-07 17:53:07.523  2654  2654 E pageboostd: Received HALT command code 2
+08-07 17:53:07.533  7881  7881 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_NAVIGATION_BAR on com.example.lunchtray/com.example.lunchtray.MainActivity
+08-07 17:53:07.533  7881  7881 D InsetsSourceConsumer: ensureControlAlpha: for ITYPE_STATUS_BAR on com.example.lunchtray/com.example.lunchtray.MainActivity
+08-07 17:53:07.535  7881  7881 D RootViewPicker: Root not ready - waiting: 10ms for one to appear.
+08-07 17:53:07.535   952  3368 I SemDvfsHyPerManager: acquire hyper - AMS_RESUME_TAIL/952@18, type = -999
+08-07 17:53:07.535   952  3368 I SemDvfsHyPerManager: acquire hyper - AMS_ACT_LAZY/952@19, type = -999
+08-07 17:53:07.535   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 470953  [952 / 18]    HINT : AMS_RESUME_TAIL    list :
+08-07 17:53:07.536   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.536   568   614 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 469012
+08-07 17:53:07.537   952  3366 D InputDispatcher: Focus entered window (0): 9c00d76 com.example.lunchtray/com.example.lunchtray.MainActivity
+08-07 17:53:07.537  1411  2198 I ViewRootImpl@7be0951[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@d531af fN = 2 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+08-07 17:53:07.538  1411  2198 I ViewRootImpl@7be0951[lunchtray]: mWNT: merge t to BBQ
+08-07 17:53:07.538  1411  2198 I ViewRootImpl@7be0951[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@c43a9bc fN = 2 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+08-07 17:53:07.538  1411  2198 I ViewRootImpl@7be0951[lunchtray]: mWNT: merge t to BBQ
+08-07 17:53:07.536   534   541 E statsd  : Predicate -7037417284711607308 dropping data for dimension key (10)0x2010101->10704[I] (10)0x30000->*launch*[S]
+08-07 17:53:07.538   534   541 E statsd  : Predicate 5980654721335871649 dropping data for dimension key (10)0x2010101->10704[I] (10)0x30000->*launch*[S]
+08-07 17:53:07.542  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+08-07 17:53:07.542   628   628 D SurfaceFlinger: Display 0 HWC layers:
+08-07 17:53:07.542   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e0a3d0 | 0100 | RGBx_8888    |   50.0    0.0 1130.0 2280.0 |    0    0 1080 2280 | Wallpaper BBQ wrapper#0
+08-07 17:53:07.542   628   628 D SurfaceFlinger:      DEVICE | 0x78e3de3010 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.sec.android.app.launcher/com.sec[...].activities.LauncherActivity$_2001#0
+08-07 17:53:07.542   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e0d790 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    2    5 1078 2275 | com.example.lunchtray/com.example.lunchtray.MainActivity$_7881#0
+08-07 17:53:07.542   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e20cf0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    2    5 1078 2275 | Splash Screen com.example.lunchtray$_1411#0
+08-07 17:53:07.542   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e110f0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1411#0
+08-07 17:53:07.542   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e1bd10 | 0100 | RGBA_8888    |    0.0    0.0   67.0  457.0 |    0  410   67  867 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8085#0
+08-07 17:53:07.542   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e02930 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126
+08-07 17:53:07.542   628   628 D SurfaceFlinger: .0 |    0 2154 1080 2280 | NavigationBar0$_1411#0
+08-07 17:53:07.542   628   628 D SurfaceFlinger:
+08-07 17:53:07.544  7881  7881 D InputMethodManager: startInputInner - Id : 0
+08-07 17:53:07.544  7881  7881 I InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+08-07 17:53:07.545   952  3366 D InputMethodManagerService: DESKTOP MODE! : 2
+08-07 17:53:07.545   952  3366 D InputMethodManagerService: NOT IN KNOX DESKTOP MODE!
+08-07 17:53:07.545   952  3366 V InputMethodManagerService: getDisplayIdOfInputMethodWindowToBeAdded : 0
+08-07 17:53:07.545   952  3366 D InputMethodManagerService: checkDisplayOfStartInputAndUpdateKeyboard display Id 0last 0
+08-07 17:53:07.546   952  3366 D InputTransport: Input channel constructed: 'ClientS', fd=1987
+08-07 17:53:07.546   952  3366 D InputTransport: Input channel destroyed: 'ClientS', fd=1987
+08-07 17:53:07.546   952  1311 W SemWifiTransportLayerUtils: getApplicationCategory - IOException com.example.lunchtray
+08-07 17:53:07.546   952  1311 W System.err: java.io.FileNotFoundException: https://play.google.com/store/apps/details?id=com.example.lunchtray&hl=en
+08-07 17:53:07.546   952  1311 W System.err: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getInputStream(HttpURLConnectionImpl.java:255)
+08-07 17:53:07.546   952  1311 W System.err: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getInputStream(DelegatingHttpsURLConnection.java:211)
+08-07 17:53:07.546   952  1311 W System.err: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:30)
+08-07 17:53:07.546   952  1311 W System.err: 	at com.samsung.android.server.wifi.tcp.SemWifiTransportLayerUtils.getApplicationCategory(SemWifiTransportLayerUtils.java:104)
+08-07 17:53:07.546   952  1311 W System.err: 	at com.samsung.android.server.wifi.tcp.SemWifiTransportLayerMonitor$TcpMonitorHandler.handleMessage(SemWifiTransportLayerMonitor.java:244)
+08-07 17:53:07.546   952  1311 W System.err: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+08-07 17:53:07.546   952  1311 W System.err: 	at android.os.Looper.loopOnce(Looper.java:226)
+08-07 17:53:07.546   952  1311 W System.err: 	at android.os.Looper.loop(Looper.java:313)
+08-07 17:53:07.546   952  1311 W System.err: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+08-07 17:53:07.546  6011  6011 I HBD     : HoneyBoardService onFinishInput
+08-07 17:53:07.546   952  1311 D SemWifiTransportLayerMonitor.TcpMonitorHandler: MSG_SAVE_PACKAGE_INFO
+08-07 17:53:07.546   952  1311 D SemWifiTransportLayerFileManager: saveWifiPackageInfoToFile
+08-07 17:53:07.546   952  1311 D SemWifiTransportLayerFileManager: writeWifiPackageInfoList
+08-07 17:53:07.547  6011  6011 I HBD     : a IC have been unbinding,  InputConnectionWrapper{idHash=#467e097 mMissingMethods=}
+08-07 17:53:07.547  6011  6011 I HBD     : HoneyBoardService [PF_CL][onFinishInput]  349000 ns
+08-07 17:53:07.547  6011  6011 I HBD     : HoneyBoardService [IMI] onStartInput - caller pid : 7881 , caller uid : 10704
+08-07 17:53:07.547  6011  6011 I HBD     : j updateConfigs
+08-07 17:53:07.547  6011  6011 I HBD     : j isEnabledNightMode : false
+08-07 17:53:07.547  6011  6011 I HBD     : a IC have been binding, InputConnectionWrapper{idHash=#d200a6d mMissingMethods=}
+08-07 17:53:07.547  6011  6011 I HBD     : h [EditorInputType]setPrivateImeOptionsToTable privateImeOptions ( null )
+08-07 17:53:07.547  6011  6011 I HBD     : b incognitoMode : false
+08-07 17:53:07.547  6011  6011 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+08-07 17:53:07.547  6011  6011 I HBD     : h getDefaultInputRange : UNKNOWN
+08-07 17:53:07.547  6011  6011 I HBD     : h getDefaultInputRange : UNKNOWN
+08-07 17:53:07.547  6011  6011 I HBD     : h getDefaultInputRange : UNKNOWN
+08-07 17:53:07.547   952  3368 D DARUtil : Device owner status not updated yet...
+08-07 17:53:07.547   952  3368 D DARUtil : Not an enterprise user : 0
+08-07 17:53:07.548   952  3368 D DARUtil : Device owner status not updated yet...
+08-07 17:53:07.548   952  3368 D DARUtil : Not an enterprise user : 0
+08-07 17:53:07.548  6011  6011 I HBD     : a needOff = true , isForceOff = false, isNullInputClass : true
+08-07 17:53:07.548  6011  6011 I HBD     : a update cached prediction status : false
+08-07 17:53:07.548  6011  6011 I HBD     : h getDefaultInputRange : UNKNOWN
+08-07 17:53:07.548  6011  6011 I HBD     : h getDefaultInputRange : UNKNOWN
+08-07 17:53:07.548  6011  6011 I HBD     : a currentState : 0
+08-07 17:53:07.549  6011  6011 I HBD     : h load selected json path : /data/user/0/com.samsung.android.honeyboard/files/selected.json
+08-07 17:53:07.549  6011  6011 I HBD     : h load selected json info : {"version":"1.0","currentLanguageOrder":0,"selected":[{"activeOptionList":["auto_spacing"],"engName":"Korean","id":4521984,"inputType":"phonepad","isUsed":true},{"activeOptionList":["auto_replace","auto_spacing","writing_assistant"],"engName":"English","id":65537,"inputType":"qwerty","isUsed":true}]}
+08-07 17:53:07.551   628  2111 I SurfaceFlinger: id=624627 createSurf (0x0),-1 flag=24004, Surface(name=7cc30f4 InputMethod)/@0xe76f292 - animation-leash of insets_animation#1
+08-07 17:53:07.551  6011  6011 I HBD     : a [UpdatePolicy] [post] a: 0 cl: 4521984 kit: [1/0] vt: 0 ir: 1
+08-07 17:53:07.552  6011  6011 I HBD     : HoneyBoardService [PF_OP][onStartInput]  5376539 ns
+08-07 17:53:07.554  1411  2199 I ViewRootImpl@7be0951[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@9eebd45 fN = 3 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+08-07 17:53:07.554  1411  2199 I ViewRootImpl@7be0951[lunchtray]: mWNT: merge t to BBQ
+08-07 17:53:07.557   952  3366 D InputMethodManagerServicePhysicalKey: isConnectedDexOnPC false
+08-07 17:53:07.558   952  3366 D InputMethodManagerService: isImeSwitcherDisabledPackage : false
+08-07 17:53:07.559  7881  7881 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231208/com.example.lunchtray:id/start_order_btn>
+08-07 17:53:07.561   952  3366 D InputDispatcher: Inject motion (7881): action=0x0, time=2262180870000000, f=0x0, d=0
+08-07 17:53:07.561   952  1207 I InputDispatcher: Delivering touch to (1411): action: 0x4, f=0x0, d=0, '5b03b71', t=0
+08-07 17:53:07.561   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x0, f=0x0, d=0, '9c00d76', t=0 +(-1,-56)*1.00
+08-07 17:53:07.561   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -812310394 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:07.561   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -812310394 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:07.562  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3311@22, type = 1090523139
+08-07 17:53:07.562  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3311@24, type = 1090523139
+08-07 17:53:07.562  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 0
+08-07 17:53:07.562   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5556133  [3311 / 22]    HINT :      list : [TABoost / 5]
+08-07 17:53:07.562   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5562804  [3311 / 24]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+08-07 17:53:07.569   628   628 I Layer   : id=624611 removeFromCurrentState Surface(name=7cc30f4 InputMethod)/@0xe76f292 - animation-leash of insets_animation#0 (130)
+08-07 17:53:07.570   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.570   628   628 I SurfaceFlinger: id=624611 Removed Surface(name=7cc30f4 InputMethod)/@0xe76f292 - animation-leash of insets_animation#0 (130)
+08-07 17:53:07.570  1411  2198 I ViewRootImpl@7be0951[lunchtray]: mWNT: t = android.view.SurfaceControl$Transaction@afcc9a fN = 4 android.view.SyncRtSurfaceTransactionApplier.applyTransaction:94 android.view.SyncRtSurfaceTransactionApplier.lambda$scheduleApply$0$SyncRtSurfaceTransactionApplier:71 android.view.SyncRtSurfaceTransactionApplier$$ExternalSyntheticLambda0.onFrameDraw:4
+08-07 17:53:07.570  1411  2198 I ViewRootImpl@7be0951[lunchtray]: mWNT: merge t to BBQ
+08-07 17:53:07.570   628   628 I Layer   : id=624611 Destroyed Surface(name=7cc30f4 InputMethod)/@0xe76f292 - animation-leash of insets_animation#0
+08-07 17:53:07.589  1411  1640 D OpenGLRenderer: setSurface called with nullptr
+08-07 17:53:07.589  1411  1640 D OpenGLRenderer: setSurface() destroyed EGLSurface
+08-07 17:53:07.589  1411  1640 D OpenGLRenderer: destroyEglSurface
+08-07 17:53:07.591   952  3366 V WindowManager: Relayout Window{410b165 u0 Splash Screen com.example.lunchtray}: viewVisibility=8 req=1080x2280 d0
+08-07 17:53:07.591   628  2718 I SurfaceFlinger: id=624628 createSurf (0x0),-1 flag=24000, Surface(name=410b165 Splash Screen com.example.lunchtray)/@0x52639dd - animation-leash of window_animation#0
+08-07 17:53:07.593   952  3366 V WindowManager: Relayout hash=410b165, pid=1411: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=APPLICATION_STARTING fmt=TRANSLUCENT wanim=0x1030001
+08-07 17:53:07.593   952  3366 V WindowManager:   fl=81030118
+08-07 17:53:07.593   952  3366 V WindowManager:   pfl=36000010
+08-07 17:53:07.593   952  3366 V WindowManager:   bhv=DEFAULT
+08-07 17:53:07.593   952  3366 V WindowManager:   fitSides= naviIconColor=0}
+08-07 17:53:07.594  1411  1558 I ViewRootImpl@7be0951[lunchtray]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=3 res=0x5 s={false 0} ch=true fn=5
+08-07 17:53:07.595  1411  1558 I ViewRootImpl@7be0951[lunchtray]: dispatchDetachedFromWindow
+08-07 17:53:07.595   952  3368 D InputTransport: Input channel destroyed: '410b165', fd=1713
+08-07 17:53:07.595   952  3368 W InputManager-JNI: Input channel object '410b165 Splash Screen com.example.lunchtray (client)' was disposed without first being removed with the input manager!
+08-07 17:53:07.595   952  3368 D InputTransport: Input channel destroyed: '410b165', fd=1763
+08-07 17:53:07.597  1411  1558 D InputTransport: Input channel destroyed: '410b165', fd=212
+08-07 17:53:07.602   568  7950 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 473872
+08-07 17:53:07.603   628   628 I Layer   : id=624626 removeFromCurrentState Surface(name=9c00d76 com.example.lunchtray/com.example.lunchtray.MainActivity)/@0xe21466f - animation-leash of starting_reveal#0 (130)
+08-07 17:53:07.604  2001  2001 I ViewRootImpl@67bf432[LauncherActivity]: handleAppVisibility mAppVisible=true visible=false
+08-07 17:53:07.605  1411  2682 D WallpaperService: dispatchAppVisibility onVisibilityChanged(): false
+08-07 17:53:07.605  1411  1411 D WallpaperService: reportVisibility onVisibilityChanged visible: false
+08-07 17:53:07.605  1411  1635 I ImageWallpaper:  onVisibilityChanged false , 0
+08-07 17:53:07.608   628   628 D SurfaceFlinger: Display 0 HWC layers:
+08-07 17:53:07.608   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e0e2d0 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.example.lunchtray/com.example.lunchtray.MainActivity$_7881#0
+08-07 17:53:07.608   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e20cf0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | Splash Screen com.example.lunchtray$_1411#0
+08-07 17:53:07.608   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e110f0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1411#0
+08-07 17:53:07.608   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e1bd10 | 0100 | RGBA_8888    |    0.0    0.0   67.0  457.0 |    0  410   67  867 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8085#0
+08-07 17:53:07.608   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e02930 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2154 1080 2280 | NavigationBar0$_1411#0
+08-07 17:53:07.608   628   628 D SurfaceFlinger:
+08-07 17:53:07.620   628   628 I Layer   : id=624617 removeFromCurrentState Surface(name=Task=1)/@0x71397ea - animation-leash of app_transition#0 (130)
+08-07 17:53:07.620   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.620   628   628 I SurfaceFlinger: id=624617 Removed Surface(name=Task=1)/@0x71397ea - animation-leash of app_transition#0 (130)
+08-07 17:53:07.620   628   628 I Layer   : id=624617 Destroyed Surface(name=Task=1)/@0x71397ea - animation-leash of app_transition#0
+08-07 17:53:07.624   952  3368 V WindowManager: Relayout Window{72e35ce u0 com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity}: viewVisibility=8 req=1080x2280 d0
+08-07 17:53:07.626  7881  7881 D LifecycleMonitor: Lifecycle status change: androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb in: STOPPED
+08-07 17:53:07.627  7881  7881 V ActivityScenario: Activity lifecycle changed event received but ignored because the intent does not match. startActivityIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.example.lunchtray/.MainActivity }, activity.getIntent()=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 cmp=com.example.lunchtray/androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity (has extras) }, activity=androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity@200a1fb
+08-07 17:53:07.627   952  3368 V WindowManager: Relayout hash=72e35ce, pid=2001: mAttrs={(0,0)(fillxfill) sim={adjust=nothing} layoutInDisplayCutoutMode=shortEdges ty=BASE_APPLICATION fmt=TRANSPARENT wanim=0x10302f2
+08-07 17:53:07.627   952  3368 V WindowManager:   fl=81910100
+08-07 17:53:07.627   952  3368 V WindowManager:   pfl=1e020040
+08-07 17:53:07.627   952  3368 V WindowManager:   vsysui=1700
+08-07 17:53:07.627   952  3368 V WindowManager:   apr=LIGHT_STATUS_BARS LIGHT_NAVIGATION_BARS
+08-07 17:53:07.627   952  3368 V WindowManager:   bhv=SHOW_TRANSIENT_BARS_BY_SWIPE
+08-07 17:53:07.627   952  3368 V WindowManager:   fitSides= naviIconColor=0}
+08-07 17:53:07.628  2001  2001 I ViewRootImpl@67bf432[LauncherActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=4 res=0x5 s={false 0} ch=true fn=19
+08-07 17:53:07.628  2001  2001 I ViewRootImpl@67bf432[LauncherActivity]: stopped(true) old=false
+08-07 17:53:07.629  2001  2001 I BaseActivity: removeActivityFlags, flags : 17
+08-07 17:53:07.629  2001  2001 I StateManager: goToState isInState Normal
+08-07 17:53:07.629  2001  2001 W LauncherAppWidgetHost: setShouldListenFlag, mFlags:7 flag:start on:false isFront:false
+08-07 17:53:07.629  2001  2079 I IMM_LC  : hsifw() - flags=0, caller=android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:1858 android.view.inputmethod.InputMethodManager.hideSoftInputFromWindow:1827 com.android.launcher3.util.UiThreadHelper$UiCallbacks.handleMessage:103 android.os.Handler.dispatchMessage:102 android.os.Looper.loopOnce:226
+08-07 17:53:07.629   952  3366 I AppWidgetServiceImpl: stopListening callbacks : null
+08-07 17:53:07.629  2001  2079 I IMM_LC  : hideSoftInputFromWindow - mService.hideSoftInput
+08-07 17:53:07.630  2001  2001 W LauncherAppWidgetHost: stopListening, mFlags:2 isFront:false
+08-07 17:53:07.630  2001  2001 W Launcher.NotificationListener: removeNotificationsChangedListener
+08-07 17:53:07.630  2001  2001 I BadgeCountUpdaterImpl: onNotificationsChangedDisConnected
+08-07 17:53:07.630  2001  2001 I Launcher.NotificationListener: unregisterObserver, this is not notificationService!!
+08-07 17:53:07.630   952  3366 D InputDispatcher: Inject motion (7881): action=0x1, time=2262180939000000, f=0x0, d=0
+08-07 17:53:07.630  2001  2079 I LiveIconUpdateEventHandler: LiveIcon onStop
+08-07 17:53:07.630   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x1, f=0x0, d=0, '9c00d76', t=1
+08-07 17:53:07.631   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -690070038
+08-07 17:53:07.631  2001  2079 I LiveIconUpdateEventHandler: cancelMinuteChangeAlarm
+08-07 17:53:07.631   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -690070038
+08-07 17:53:07.631  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 1
+08-07 17:53:07.632  2001  2079 I LiveIconUpdateEventHandler: cancelDateChangeAlarm
+08-07 17:53:07.637   628   628 I Layer   : id=624618 removeFromCurrentState Surface(name=Task=8206)/@0x232724 - animation-leash of app_transition#0 (129)
+08-07 17:53:07.637   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.637   628   628 I SurfaceFlinger: id=624605 Removed OneUiHome-BlurLayer#0 (129)
+08-07 17:53:07.638   628   628 I SurfaceFlinger: id=624618 Removed Surface(name=Task=8206)/@0x232724 - animation-leash of app_transition#0 (129)
+08-07 17:53:07.638   628   628 I Layer   : id=624618 Destroyed Surface(name=Task=8206)/@0x232724 - animation-leash of app_transition#0
+08-07 17:53:07.638  5501  5501 W SAPackageEventReceiver: [com.example.lunchtray] removed. Stop sending intent
+08-07 17:53:07.639  8085  8085 I Utils   : isCurrentUser current = 0, ownerId = 0
+08-07 17:53:07.639  2001  2079 I LiveIconUpdateEventHandler: unregisterReceiver
+08-07 17:53:07.640  8085  8085 I TrayVisibilityController: getComputedTrayVisible : keyguardState = 1
+08-07 17:53:07.640  8085  8085 I TrayVisibilityController: updateTrayVisible: State=1 visible=1 mCurrentVisible=1 specificMode=0
+08-07 17:53:07.640  8085  8085 I TrayStateController: onNotifyUpdateTray: state=0
+08-07 17:53:07.641  7881  7881 D ScrollView: initGoToTop
+08-07 17:53:07.646 24757 24769 I SAMSUNGWALLET: [Hint_ProcessStatusChange] fg Change, pid : 2001 , isNotify : true , isForeground : false , fg list : [7881]
+08-07 17:53:07.647 24757 25074 I SAMSUNGWALLET: [ResetData] getSAResetDialogFlag : false
+08-07 17:53:07.649 24757 25074 I SAMSUNGWALLET: [Hint_bxa] isHomePackageRunning topPkgName = com.example.lunchtray, topClsName = com.example.lunchtray.MainActivity, return false , se : false
+08-07 17:53:07.650 24757 24757 I SAMSUNGWALLET: [Hint_PayHintService] Hint Status - already invisible, skip hide : Home Package Not Running
+08-07 17:53:07.654   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.654   628   628 I Layer   : id=624602 removeFromCurrentState com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_2001#0 (128)
+08-07 17:53:07.654   628   628 I Layer   : id=624605 removeFromCurrentState OneUiHome-BlurLayer#0 (128)
+08-07 17:53:07.654   628   628 I SurfaceFlinger: id=624602 Removed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_2001#0 (128)
+08-07 17:53:07.654   628   628 I Layer   : id=624602 Destroyed com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity$_2001#0
+08-07 17:53:07.654   628   628 I Layer   : id=624605 Destroyed OneUiHome-BlurLayer#0
+08-07 17:53:07.657  1411  1411 D NavigationBar: onSystemBarAttributesChanged() -  displayId:0, appearance:16 (APPEARANCE_LIGHT_NAVIGATION_BARS ), navbarColorManagedByIme:false
+08-07 17:53:07.657  1411  1411 V Navbar.Store: handleEvent [EventType] GET_BOOL_REGION_SAMPLING_ENABLED [Module] LightBarController  KEYS_DEFAULT=false
+08-07 17:53:07.657  1411  1411 V Navbar.Store: --[Band]COLOR_PACK_GET_REGION_SAMPLING_ENABLED
+08-07 17:53:07.657  1411  1411 V Navbar.Store: ----getValue(BOOL_REGION_SAMPLING_ENABLED)=false
+08-07 17:53:07.670   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.670   628   628 I Layer   : id=624616 removeFromCurrentState Splash Screen com.example.lunchtray$_1411#0 (126)
+08-07 17:53:07.671   628   628 I Layer   : id=624615 removeFromCurrentState 410b165 Splash Screen com.example.lunchtray#0 (126)
+08-07 17:53:07.671   628   628 I Layer   : id=624628 removeFromCurrentState Surface(name=410b165 Splash Screen com.example.lunchtray)/@0x52639dd - animation-leash of window_animation#0 (126)
+08-07 17:53:07.671   628   628 I SurfaceFlinger: id=624615 Removed 410b165 Splash Screen com.example.lunchtray#0 (126)
+08-07 17:53:07.671   628   628 I SurfaceFlinger: id=624616 Removed Splash Screen com.example.lunchtray$_1411#0 (126)
+08-07 17:53:07.671   628   628 I SurfaceFlinger: id=624628 Removed Surface(name=410b165 Splash Screen com.example.lunchtray)/@0x52639dd - animation-leash of window_animation#0 (126)
+08-07 17:53:07.671   628   628 I Layer   : id=624628 Destroyed Surface(name=410b165 Splash Screen com.example.lunchtray)/@0x52639dd - animation-leash of window_animation#0
+08-07 17:53:07.671   628   628 I Layer   : id=624615 Destroyed 410b165 Splash Screen com.example.lunchtray#0
+08-07 17:53:07.672   628   628 I Layer   : id=624616 Destroyed Splash Screen com.example.lunchtray$_1411#0
+08-07 17:53:07.674   628   628 D SurfaceFlinger: Display 0 HWC layers:
+08-07 17:53:07.674   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e146f0 | 0102 | RGBA_8888    |    0.0    0.0 1080.0 2280.0 |    0    0 1080 2280 | com.example.lunchtray/com.example.lunchtray.MainActivity$_7881#0
+08-07 17:53:07.674   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e110f0 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  112.0 |    0    0 1080  112 | StatusBar$_1411#0
+08-07 17:53:07.674   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e1bd10 | 0100 | RGBA_8888    |    0.0    0.0   67.0  457.0 |    0  410   67  867 | com.samsung.android.app.cocktailbars[...]arservice.CocktailBarService$_8085#0
+08-07 17:53:07.674   628   628 D SurfaceFlinger:      DEVICE | 0x78e3e00f50 | 0100 | RGBA_8888    |    0.0    0.0 1080.0  126.0 |    0 2154 1080 2280 | NavigationBar0$_1411#0
+08-07 17:53:07.674   628   628 D SurfaceFlinger:
+08-07 17:53:07.681  7881  7891 I ample.lunchtra: Compiler allocated 4163KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+08-07 17:53:07.687   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.704   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.710   952  1409 V WindowManager: Relayout Window{9c00d76 u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2280 d0
+08-07 17:53:07.712   952  1409 V WindowManager: Relayout hash=9c00d76, pid=7881: mAttrs={(0,0)(fillxfill) sim={adjust=resize} ty=BASE_APPLICATION wanim=0x1030303
+08-07 17:53:07.712   952  1409 V WindowManager:   fl=81810100
+08-07 17:53:07.712   952  1409 V WindowManager:   pfl=12020040
+08-07 17:53:07.712   952  1409 V WindowManager:   apr=LIGHT_NAVIGATION_BARS
+08-07 17:53:07.712   952  1409 V WindowManager:   bhv=DEFAULT
+08-07 17:53:07.712   952  1409 V WindowManager:   fitSides= naviIconColor=0
+08-07 17:53:07.712   952  1409 V WindowManager:   sfl=100000}
+08-07 17:53:07.714  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=3 res=0x1 s={true 512217319216} ch=false fn=12
+08-07 17:53:07.716  7881  7881 D ScrollView:  onsize change changed
+08-07 17:53:07.721   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.722  5104  5104 I dnwd    : onPause
+08-07 17:53:07.726  8447  8447 I gkox    : (REDACTED) received broadcast: %s
+08-07 17:53:07.726  8447  8585 I gkpa    : (REDACTED) received broadcast: %s
+08-07 17:53:07.726  8447  8585 I gkkn    : (REDACTED) #onConfigUpdate. requester: %s
+08-07 17:53:07.726  8447  8585 I gkkn    : #onConfigUpdate inside sequencer
+08-07 17:53:07.726  8447  8585 I gkhl    : (REDACTED) Voice Match (Speaker-id) supported : %b
+08-07 17:53:07.726  8447  8585 I gkhl    : (REDACTED) hotword enrollment state is enrolled:  %b, speakerId model exist: %b. Voice Match supported : %b
+08-07 17:53:07.726  8447  8585 I gkhl    : (REDACTED) isHotwordAvailable():  %b, isHotwordEnabled() %b
+08-07 17:53:07.726  8447  8585 I gkhl    : (REDACTED) isHotwordAvailable():  %b, isHotwordEnabled() %b
+08-07 17:53:07.726  8447  8585 I gkhl    : (REDACTED) Hotword enrollment state : %s.
+08-07 17:53:07.726  8447  8585 I gkhl    : (REDACTED) Voice Match (Speaker-id) supported : %b
+08-07 17:53:07.726  8447  8585 I gkhl    : (REDACTED) Voice Match (Speaker-id) supported : %b
+08-07 17:53:07.726  8447  8585 I gkhl    : (REDACTED) hotword enrollment state is enrolled:  %b, speakerId model exist: %b, voice match supported : %b
+08-07 17:53:07.726  8447  8585 I gkhl    : (REDACTED) Hotword isNonVoiceMatchHotwordEnabled: %b, isHotwordAvailable : %b, isHotwordEnabled : %b, isVoiceMatchSupported: %b, isHotwordEnrolled: %b.
+08-07 17:53:07.726  8447  8585 I gkkn    : (REDACTED) Ignore the legacy hotword request. voice match enabled %b, isHotwordSupported %b, isIncompleteEnrollmentState %b, nonVoiceMatchHotwordEnabled %b
+08-07 17:53:07.738   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.754   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.771   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:07.836   568  7967 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 470953
+08-07 17:53:07.862   952  1032 I GestureDetector: handleMessage TAP
+08-07 17:53:07.862   952   952 I GestureDetector: handleMessage TAP
+08-07 17:53:07.901   952  1307 D SemNscXgbMsL1: Probability - Cloud gaming: [0.057680316]
+08-07 17:53:07.901   952  1307 D SemNscXgbMsL1: Probability - Real time: [0.124079734]
+08-07 17:53:07.901   952  1307 D SemNscXgbMsL1: Probability - Non real time: [0.971307]
+08-07 17:53:07.901   952  1307 D SemNscXgbMsL1: 1 sample inference time: 0.181923 msecs
+08-07 17:53:07.901   952  1307 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 0.421539 msecs
+08-07 17:53:07.902   952  1307 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 0.373153 msecs
+08-07 17:53:07.921   952  1313 D SemWifiSwitchForIndividualAppsService: isPackageException - result:3, com.example.lunchtray
+08-07 17:53:07.959  7881  7881 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230844/com.example.lunchtray:id/cauliflower>
+08-07 17:53:07.961   952  1409 D InputDispatcher: Inject motion (7881): action=0x0, time=2262181269000000, f=0x0, d=0
+08-07 17:53:07.961   952  1207 I InputDispatcher: Delivering touch to (1411): action: 0x4, f=0x0, d=0, '5b03b71', t=0
+08-07 17:53:07.961   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x0, f=0x0, d=0, '9c00d76', t=0
+08-07 17:53:07.962   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -497795826 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:07.962  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3311@22, type = 1090523139
+08-07 17:53:07.962  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3311@24, type = 1090523139
+08-07 17:53:07.962   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -497795826 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:07.962   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5556133  [3311 / 22]    HINT :      list : [TABoost / 5]
+08-07 17:53:07.962   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5562804  [3311 / 24]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+08-07 17:53:07.962  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 0
+08-07 17:53:08.002   952  1409 D InputDispatcher: Inject motion (7881): action=0x1, time=2262181310000000, f=0x0, d=0
+08-07 17:53:08.002   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x1, f=0x0, d=0, '9c00d76', t=1
+08-07 17:53:08.002  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 1
+08-07 17:53:08.003   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -127735925
+08-07 17:53:08.003   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -127735925
+08-07 17:53:08.022   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.030  5104  5104 I dnwd    : onStop
+08-07 17:53:08.038   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.055   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.072   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.088   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.105   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.122   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.139   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.156   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.172   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.189   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.206   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.221   568  7959 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 469982
+08-07 17:53:08.223   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.239   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.256   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.261   952  1032 I GestureDetector: handleMessage TAP
+08-07 17:53:08.262   952   952 I GestureDetector: handleMessage TAP
+08-07 17:53:08.262  7881  7881 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231081/com.example.lunchtray:id/next_button>
+08-07 17:53:08.266   952  1409 D InputDispatcher: Inject motion (7881): action=0x0, time=2262181574000000, f=0x0, d=0
+08-07 17:53:08.267   952  1207 I InputDispatcher: Delivering touch to (1411): action: 0x4, f=0x0, d=0, '5b03b71', t=0
+08-07 17:53:08.267   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x0, f=0x0, d=0, '9c00d76', t=0
+08-07 17:53:08.268   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -940813243 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:08.268   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -940813243 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:08.269  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 0
+08-07 17:53:08.270  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3311@22, type = 1090523139
+08-07 17:53:08.270  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3311@24, type = 1090523139
+08-07 17:53:08.271   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5556133  [3311 / 22]    HINT :      list : [TABoost / 5]
+08-07 17:53:08.271   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5562804  [3311 / 24]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+08-07 17:53:08.273   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.290   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.306   952  1409 D InputDispatcher: Inject motion (7881): action=0x1, time=2262181614000000, f=0x0, d=0
+08-07 17:53:08.306   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.307   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x1, f=0x0, d=0, '9c00d76', t=1
+08-07 17:53:08.307   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -224747200
+08-07 17:53:08.307   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -224747200
+08-07 17:53:08.307  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 1
+08-07 17:53:08.323   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.340   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.348  7881  7881 D ScrollView: initGoToTop
+08-07 17:53:08.357   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.373   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.390   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.403   952  1307 D SemNscXgbMsL1: Probability - Cloud gaming: [0.04578806]
+08-07 17:53:08.404   952  1307 D SemNscXgbMsL1: Probability - Real time: [0.030030178]
+08-07 17:53:08.404   952  1307 D SemNscXgbMsL1: Probability - Non real time: [0.94693905]
+08-07 17:53:08.404   952  1307 D SemNscXgbMsL1: 1 sample inference time: 0.746615 msecs
+08-07 17:53:08.405   952  1307 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.330846 msecs
+08-07 17:53:08.407   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.407   952  1307 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.390231 msecs
+08-07 17:53:08.422  7881  7881 D ScrollView:  onsize change changed
+08-07 17:53:08.424   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.440   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.457   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.479  3311 14889 I FASProvider: makeValuesForFasUpdate contentValues = package_name=com.google.android.apps.tachyon uid=10230 level=1 resetTime=1691398388467
+08-07 17:53:08.487  3311 14889 I FASProvider: makeValuesForFasUpdate contentValues = package_name=com.google.android.gm uid=10190 level=1 resetTime=1691398388468
+08-07 17:53:08.568   952   952 I GestureDetector: handleMessage TAP
+08-07 17:53:08.570   952  1032 I GestureDetector: handleMessage TAP
+08-07 17:53:08.654  7881  7881 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231187/com.example.lunchtray:id/soup>
+08-07 17:53:08.657   952  3368 D InputDispatcher: Inject motion (7881): action=0x0, time=2262181965000000, f=0x0, d=0
+08-07 17:53:08.658   952  1207 I InputDispatcher: Delivering touch to (1411): action: 0x4, f=0x0, d=0, '5b03b71', t=0
+08-07 17:53:08.658   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x0, f=0x0, d=0, '9c00d76', t=0
+08-07 17:53:08.658  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 0
+08-07 17:53:08.660   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -868687222 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:08.660   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -868687222 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:08.662  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3311@22, type = 1090523139
+08-07 17:53:08.663  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3311@24, type = 1090523139
+08-07 17:53:08.663   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5556133  [3311 / 22]    HINT :      list : [TABoost / 5]
+08-07 17:53:08.663   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5562804  [3311 / 24]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+08-07 17:53:08.697   952  3368 D InputDispatcher: Inject motion (7881): action=0x1, time=2262182005000000, f=0x0, d=0
+08-07 17:53:08.697   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x1, f=0x0, d=0, '9c00d76', t=1
+08-07 17:53:08.698  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 1
+08-07 17:53:08.699   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -626101610
+08-07 17:53:08.699   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -626101610
+08-07 17:53:08.712   568  7951 I HYPER-HAL: [RequestManager.cpp]releaseLocked(): Released ID : 5526163
+08-07 17:53:08.725   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.742   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.758   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.775   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.792   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.809   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.825   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.842   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.859   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.876   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.880  2001  2079 I QuickstepModelDelegate: Widget predictions updated
+08-07 17:53:08.892   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.895  2001  2082 I WidgetsPredictionUpdateTask: execute(), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.kakao.talk/com.kakao.talk.kakaopay.PayAppWidget} screen=-1 cell(-1,-1) span(4,2) minSpan(4,2) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.kakao.talk/com.kakao.talk.kakaopay.PayAppWidget}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.samsung.android.app.notes/com.samsung.android.app.notes.widget.WidgetToolBarProvider} screen=-1 cell(-1,-1) span(4,1) minSpan(4,1) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.samsung.android.app.notes/com.samsung.android.app.notes.widget.WidgetToolBarProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.kbstar.kbbank/com.kbstar.kbbank.implementation.presentation.widget.KBWidget1} screen=-1 cell(-1,-1) span(4,1) minSpan(4,1) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.kbstar.kbbank/com.kbstar.kbbank.implementation.presentation.widget.KBWidget1}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{viva.republica.toss/viva.republica.toss.tossfeed.widget.TossFeedWidgetProvider} screen=-1 cell(-1,-1) span(4,2) minSpan(4,2) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{viva.republica.toss/viva.republica.toss.tossfeed.widget.TossFeedWidgetProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{net.daum.android.map/net.daum.ma.map.android.appwidget.busstop.BusStop1x1Type0Provider} screen=-1 cell(-1,-1) span(1,1) minSpan(1,1) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{net.daum.android.map/net.daum.ma.map.android.appwidget.busstop.BusStop1x1Type0Provider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.cgv.android.movieapp/com.cjs.cgv.movieapp.widget.kit.provider.KitOneByOneProvider} screen=-1 cell(-1,-1) span(1,1) minSpan(1,1) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.cgv.android.movieapp/com.cjs.cgv.movieapp.widget.kit.provider.KitOneByOneProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.widget.YtQuickActionsWidgetProvider} screen=-1 cell(-1,-1) span(3,2) minSpan(3,1) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.google.android.youtube/com.google.android.apps.youtube.app.widget.YtQuickActionsWidgetProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.samsung.android.calendar/com.android.calendar.widget.month.MonthWidgetProvider} screen=-1 cell(-1,-1) span(4,5) minSpan(4,4) rank=0 rankOfList=-1 user=UserHandle{0} title=null hidden=0 screenType=0 componentName=ComponentInfo{com.samsung.android.calendar/com.android.calendar.widget.month.MonthWidgetProvider}), info: PendingAddWidgetInfo(id=-1 type=WIDGET container=# com.android.launcher3.logger.LauncherAtom$ContainerInfo@7ba6f targetComponent=ComponentInfo{com.nhn.android.search/com.nhn.android.search.ui.widget.provider.SearchWidgetProvider} screen=-1 cell(-1,-1) span(4,1) minSpan(4,1) rank=0 rankOfList=-1 user=UserHandle{0} ti
+08-07 17:53:08.909   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.910   952  1307 D SemNscXgbMsL1: Probability - Cloud gaming: [0.056621723]
+08-07 17:53:08.911   952  1307 D SemNscXgbMsL1: Probability - Real time: [0.11015832]
+08-07 17:53:08.911   952  1307 D SemNscXgbMsL1: Probability - Non real time: [0.9305902]
+08-07 17:53:08.911   952  1307 D SemNscXgbMsL1: 1 sample inference time: 1.160923 msecs
+08-07 17:53:08.914   952  1307 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.209384 msecs
+08-07 17:53:08.916   952  1307 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.682769 msecs
+08-07 17:53:08.926   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.943   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.959   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.960   952   952 I GestureDetector: handleMessage TAP
+08-07 17:53:08.960   952  1032 I GestureDetector: handleMessage TAP
+08-07 17:53:08.964  7881  7881 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231081/com.example.lunchtray:id/next_button>
+08-07 17:53:08.967   952  1409 D InputDispatcher: Inject motion (7881): action=0x0, time=2262182275000000, f=0x0, d=0
+08-07 17:53:08.968   952  1207 I InputDispatcher: Delivering touch to (1411): action: 0x4, f=0x0, d=0, '5b03b71', t=0
+08-07 17:53:08.968   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x0, f=0x0, d=0, '9c00d76', t=0
+08-07 17:53:08.968  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 0
+08-07 17:53:08.969   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -287514525 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:08.970   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -287514525 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:08.970  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3311@22, type = 1090523139
+08-07 17:53:08.970  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3311@24, type = 1090523139
+08-07 17:53:08.971   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5556133  [3311 / 22]    HINT :      list : [TABoost / 5]
+08-07 17:53:08.971   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5562804  [3311 / 24]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+08-07 17:53:08.976   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:08.993   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.007   952  1409 D InputDispatcher: Inject motion (7881): action=0x1, time=2262182315000000, f=0x0, d=0
+08-07 17:53:09.007   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x1, f=0x0, d=0, '9c00d76', t=1
+08-07 17:53:09.008  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 1
+08-07 17:53:09.008   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -426425102
+08-07 17:53:09.009   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -426425102
+08-07 17:53:09.010   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.026   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.028  7881  7881 D ScrollView: initGoToTop
+08-07 17:53:09.043   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.060   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.067  7881  7891 I ample.lunchtra: Compiler allocated 4163KB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+08-07 17:53:09.076   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.080  7881  7881 D ScrollView:  onsize change changed
+08-07 17:53:09.093   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.110   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.270   952  1032 I GestureDetector: handleMessage TAP
+08-07 17:53:09.270   952   952 I GestureDetector: handleMessage TAP
+08-07 17:53:09.315  7881  7881 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230835/com.example.lunchtray:id/bread>
+08-07 17:53:09.318   952  1409 D InputDispatcher: Inject motion (7881): action=0x0, time=2262182626000000, f=0x0, d=0
+08-07 17:53:09.319   952  1207 I InputDispatcher: Delivering touch to (1411): action: 0x4, f=0x0, d=0, '5b03b71', t=0
+08-07 17:53:09.319   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x0, f=0x0, d=0, '9c00d76', t=0
+08-07 17:53:09.320  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 0
+08-07 17:53:09.321   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -1041395955 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:09.321   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -1041395955 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:09.323  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3311@22, type = 1090523139
+08-07 17:53:09.323  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3311@24, type = 1090523139
+08-07 17:53:09.323   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5556133  [3311 / 22]    HINT :      list : [TABoost / 5]
+08-07 17:53:09.323   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5562804  [3311 / 24]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+08-07 17:53:09.358   952  1409 D InputDispatcher: Inject motion (7881): action=0x1, time=2262182666000000, f=0x0, d=0
+08-07 17:53:09.359   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x1, f=0x0, d=0, '9c00d76', t=1
+08-07 17:53:09.359  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 1
+08-07 17:53:09.361  1393  1552 D BtGatt.GattService: onScanResult to scannerId: 17- eventType=0x13, addressType=1, address=C4A009_2, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-57, periodicAdvInt=0x0
+08-07 17:53:09.361   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -696332797
+08-07 17:53:09.361   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -696332797
+08-07 17:53:09.395   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.412   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.418   952  1307 D SemNscXgbMsL1: Probability - Cloud gaming: [0.052004196]
+08-07 17:53:09.419   952  1307 D SemNscXgbMsL1: Probability - Real time: [0.13483343]
+08-07 17:53:09.419   952  1307 D SemNscXgbMsL1: Probability - Non real time: [0.8458392]
+08-07 17:53:09.419   952  1307 D SemNscXgbMsL1: 1 sample inference time: 0.952538 msecs
+08-07 17:53:09.421   952  1307 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 1.787153 msecs
+08-07 17:53:09.423   952  1307 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.595885 msecs
+08-07 17:53:09.428   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.445   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.460  1393  1552 D BtGatt.GattService: onScanResult to scannerId: 17- eventType=0x13, addressType=1, address=C4A009_2, primaryPhy=1, secondaryPhy=0, advertisingSid=0xff, txPower=127, rssi=-58, periodicAdvInt=0x0
+08-07 17:53:09.463   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.468  1393  1552 D BluetoothRemoteDevices: Property type: 1
+08-07 17:53:09.477  1393  1552 I ContainerConfigurationPolicy: Bluetooth And NFC caller permission check
+08-07 17:53:09.478  1393  1552 D ContainerConfigurationPolicy: current version : KNOX_ENTERPRISE_SDK_VERSION_3_8, Required version : KNOX_ENTERPRISE_SDK_VERSION_2_4
+08-07 17:53:09.478   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.487  1411  1612 V BluetoothEventManager: onReceive :: android.bluetooth.device.action.NAME_CHANGED
+08-07 17:53:09.488  3108  3108 V BluetoothEventManager: onReceive :: android.bluetooth.device.action.NAME_CHANGED
+08-07 17:53:09.491  1393  1552 D BluetoothUtils: Utils::isKnoxBluetoothEnabled = true
+08-07 17:53:09.491  1393  1552 D BluetoothUtils: getBtEnabledContainers(): btContainers = [150]
+08-07 17:53:09.492  1393  1552 D BluetoothRemoteDevices: Remote Device name is: Galaxy Buds2 Pro LE
+08-07 17:53:09.492  1393  1552 D BluetoothRemoteDevices: Property type: 4
+08-07 17:53:09.492  1393  1552 E BluetoothRemoteDevices: Remote class is UNCATEGORIZED
+08-07 17:53:09.492  1393  1552 D BluetoothRemoteDevices: Property type: 5
+08-07 17:53:09.493  1411  1612 V BluetoothEventManager: onReceive :: android.bluetooth.device.action.NAME_CHANGED
+08-07 17:53:09.495   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.512   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.529   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.545   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.562   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.579   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.596   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.612   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.620   952  1032 I GestureDetector: handleMessage TAP
+08-07 17:53:09.622   952   952 I GestureDetector: handleMessage TAP
+08-07 17:53:09.629   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.646   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.652  7881  7881 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131230842/com.example.lunchtray:id/cancel_button>
+08-07 17:53:09.655   952  1409 D InputDispatcher: Inject motion (7881): action=0x0, time=2262182963000000, f=0x0, d=0
+08-07 17:53:09.656   952  1207 I InputDispatcher: Delivering touch to (1411): action: 0x4, f=0x0, d=0, '5b03b71', t=0
+08-07 17:53:09.656   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x0, f=0x0, d=0, '9c00d76', t=0
+08-07 17:53:09.657  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 0
+08-07 17:53:09.657   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -1042286593 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:09.657   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -1042286593 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:09.659  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3311@22, type = 1090523139
+08-07 17:53:09.659  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3311@24, type = 1090523139
+08-07 17:53:09.659   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5556133  [3311 / 22]    HINT :      list : [TABoost / 5]
+08-07 17:53:09.659   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5562804  [3311 / 24]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+08-07 17:53:09.663   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.679   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.695   952  1409 D InputDispatcher: Inject motion (7881): action=0x1, time=2262183003000000, f=0x0, d=0
+08-07 17:53:09.695   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x1, f=0x0, d=0, '9c00d76', t=1
+08-07 17:53:09.696   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.696  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 1
+08-07 17:53:09.696   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -714614645
+08-07 17:53:09.696   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -714614645
+08-07 17:53:09.713   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.730   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.739   952  1409 V WindowManager: Relayout Window{9c00d76 u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2280 d0
+08-07 17:53:09.743   952  1409 V WindowManager: Relayout hash=9c00d76, pid=7881: mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=BASE_APPLICATION wanim=0x1030303
+08-07 17:53:09.743   952  1409 V WindowManager:   fl=81810100
+08-07 17:53:09.743   952  1409 V WindowManager:   pfl=12020040
+08-07 17:53:09.743   952  1409 V WindowManager:   apr=LIGHT_NAVIGATION_BARS
+08-07 17:53:09.743   952  1409 V WindowManager:   bhv=DEFAULT
+08-07 17:53:09.743   952  1409 V WindowManager:   fitSides= naviIconColor=0
+08-07 17:53:09.743   952  1409 V WindowManager:   sfl=100000}
+08-07 17:53:09.746  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=7 res=0x1 s={true 512217319216} ch=false fn=87
+08-07 17:53:09.746   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.763   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.780   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:09.915   556   579 D BatteryDump: wait_for_battery_event : occurred : change@/devices/platform/battery/power_supply/battery
+08-07 17:53:09.925   952  1307 D SemNscXgbMsL1: Probability - Cloud gaming: [0.057886027]
+08-07 17:53:09.925   952  1307 D SemNscXgbMsL1: Probability - Real time: [0.10260026]
+08-07 17:53:09.926   952  1307 D SemNscXgbMsL1: Probability - Non real time: [0.95009065]
+08-07 17:53:09.926   952  1307 D SemNscXgbMsL1: 1 sample inference time: 1.173154 msecs
+08-07 17:53:09.929   952  1307 D SemNscXgbL2Rt: L2 RT 1 sample inference time: 2.597308 msecs
+08-07 17:53:09.931   952  1307 D SemNscXgbL2Nrt: L2 NRT 1 sample inference time: 1.889885 msecs
+08-07 17:53:09.940   556   556 I android.hardware.health@2.1-service-samsung: updateLrpSysfs: write: 303
+08-07 17:53:09.949   952  1198 D MotionRecognitionService: [SAR]  onReceive : ACTION_BATTERY_CHANGED, Plugged: 2
+08-07 17:53:09.949   952  1198 I MotionRecognitionService: [TA] In/out: true, curr state: 1
+08-07 17:53:09.949   952  1198 I MotionRecognitionService: [TA] Before receiving the SAR request for Main. Return.
+08-07 17:53:09.958   952  1032 I GestureDetector: handleMessage TAP
+08-07 17:53:09.958   952   952 I GestureDetector: handleMessage TAP
+08-07 17:53:09.965   952   952 D SemWifiApBroadcastReceiver: Received : android.intent.action.BATTERY_CHANGED
+08-07 17:53:09.966  1377  1377 D SemBigDataInfoController: Intent : android.intent.action.BATTERY_CHANGED
+08-07 17:53:09.967  1411  1411 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+08-07 17:53:09.972  1411  1411 I PowerUI : mBootCompleted = true |  mFullyConnected = true
+08-07 17:53:09.972  1411  1411 D PowerUI : priorPlugType = 2 mPlugType = 2 priorBatteryStatus = 2 mBatteryStatus = 2
+08-07 17:53:09.972  1411  1411 I PowerUI : oldMisalign : false, curMisalign : false
+08-07 17:53:09.975 24757 24757 I SAMSUNGWALLET: [ld1] onReceive() action=android.intent.action.BATTERY_CHANGED
+08-07 17:53:09.976  1411  1411 D PowerUI.Notification: showChargingNotice oldChargingType : 8 / currentChargingType : 8, oldChargingTime : 2904000 / mChargingTime : 2940000
+08-07 17:53:09.976  1411  1411 D PowerUI.Notification: showChargingNotification()
+08-07 17:53:09.977  7881  7881 I ViewInteraction: Performing 'single click' action on view view.getId() is <2131231208/com.example.lunchtray:id/start_order_btn>
+08-07 17:53:09.981   952  3368 D InputDispatcher: Inject motion (7881): action=0x0, time=2262183288000000, f=0x0, d=0
+08-07 17:53:09.981   952  1682 D SLocation: SPManager - SP is not support Q OS upgrade model!
+08-07 17:53:09.982   952  1207 I InputDispatcher: Delivering touch to (1411): action: 0x4, f=0x0, d=0, '5b03b71', t=0
+08-07 17:53:09.982   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x0, f=0x0, d=0, '9c00d76', t=0
+08-07 17:53:09.983  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 0
+08-07 17:53:09.983   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -205453687 caller: com.android.server.wm.SystemGesturesPointerEventListener.onPointerEvent:179 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:09.983   952  1032 I GestureDetector: obtain mCurrentDownEvent. id: -205453687 caller: com.android.server.wm.SystemPerformancePointerEventListener.onPointerEvent:89 com.android.server.wm.PointerEventDispatcher.onInputEvent:71 android.view.InputEventReceiver.dispatchInputEvent:259
+08-07 17:53:09.985  1411 26133 D PowerUI.Notification: 1. restoreScreenTimeOut - saved_value : :
+08-07 17:53:09.985  1411 26133 E PowerUI.Notification: no saved value, so we do nothing !!
+08-07 17:53:09.985  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTABoost/3311@22, type = 1090523139
+08-07 17:53:09.985  3311  3311 I SemDvfsHyPerManager: acquire hyper - BaseTAToouchBoost/3311@24, type = 1090523139
+08-07 17:53:09.985   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5556133  [3311 / 22]    HINT :      list : [TABoost / 5]
+08-07 17:53:09.985   568   614 I HYPER-HAL: [RequestManager.cpp]acquire(): Acquired ID : 5562804  [3311 / 24]    HINT :      list : [TABoost / 20] [TIMEOUT / 1500]
+08-07 17:53:09.988   952  3366 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.android.systemui,userId = 0
+08-07 17:53:09.989   952  3366 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.android.systemui,userId = -1
+08-07 17:53:09.989   952  3366 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: converting userId from USER_ALLto 0
+08-07 17:53:09.990  1411  1411 D PowerUI : Battery swelling mode - priorBatterySwellingMode = 0 mBatterySwellingMode = 0 mBatteryStatus = 2
+08-07 17:53:09.990  1411  1411 I PowerUI : mBatteryMiscEvent = 65536
+08-07 17:53:09.991  1411  1411 D KeyguardUpdateMonitor: handleBatteryUpdate
+08-07 17:53:09.995  1411  1411 D KeyguardSecIndicationController: addIndicationTimeout() returned - unlocking
+08-07 17:53:09.996  1411  1411 D KeyguardSecIndicationController: addIndication() returned - unlocking
+08-07 17:53:09.996  1411  1411 D KeyguardSecIndicationController: addBatteryIndication() status = BatteryStatus{status=2,level=92,plugged=2,health=2,maxChargingWattage=-1,remaining=2940000ultraFastCharger=0}
+08-07 17:53:10.002   952  3368 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.estsoft.alyac,userId = 0
+08-07 17:53:10.003   952  3368 D ApplicationPolicy: isStatusBarNotificationAllowedAsUser: packageName = com.estsoft.alyac,userId = 0
+08-07 17:53:10.005  1411  1411 D QS      : setQSExpansion 0.0 -118.475
+08-07 17:53:10.008  1411  1411 D QS      : setQSExpansion 0.0 -118.475
+08-07 17:53:10.008  1411  1411 V SecQSFragmentAnimatorBase: setQsExpansionPosition 0.0
+08-07 17:53:10.008  1411  1411 V QsExpandAnimator: setQsExpansionPosition 0.0 0
+08-07 17:53:10.008  1411  1411 D QS      : setQSExpansion 0.0 -118.475
+08-07 17:53:10.009  1411  1411 D MediaControlPanel: mActionButtonNumCollapsed = 3, mActionButtonNumExpand = 4
+08-07 17:53:10.013  1411  1411 I AODBatteryManager: updateBatteryData: ACTION_BATTERY_CHANGED
+08-07 17:53:10.014  1411  1411 I AODBatteryManager: saveBatteryData : AOD BatteryData [mBatteryLevel=92, mBatteryStatus=CHARGING, mBatteryPlugType=USB, mBatteryPlugged=true, mRemainingChargeTime=2940000, mBatteryChargingType=1, mBatteryChargerType=NORMAL, mBatteryOnline=NOT_DEFINED, mBatterySwellingMode=NONE, mBatteryProtectMode=false]
+08-07 17:53:10.014  1411  1411 I ChargingInfoManager: updateChargingInfo: newState = AOD ChargingInfo [mState=BATTERY_AND_REMAIN_TIME, mIsCharging=true, mIsFullyCharged=false, mIsBatteryProtectMode=false], oldState = AOD ChargingInfo [mState=BATTERY_AND_REMAIN_TIME, mIsCharging=true, mIsFullyCharged=false, mIsBatteryProtectMode=false]
+08-07 17:53:10.014   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:10.021   952  3368 D InputDispatcher: Inject motion (7881): action=0x1, time=2262183329000000, f=0x0, d=0
+08-07 17:53:10.021   952  1207 I InputDispatcher: Delivering touch to (7881): action: 0x1, f=0x0, d=0, '9c00d76', t=1
+08-07 17:53:10.022   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -689552870
+08-07 17:53:10.022  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: ViewPostIme pointer 1
+08-07 17:53:10.022   952  1032 I GestureDetector: obtain mCurrentMotionEventRaw. action: 1 id: -689552870
+08-07 17:53:10.031   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:10.035  7881  7881 D ScrollView: initGoToTop
+08-07 17:53:10.048   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:10.064   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:10.081   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:10.090   952  3368 V WindowManager: Relayout Window{9c00d76 u0 com.example.lunchtray/com.example.lunchtray.MainActivity}: viewVisibility=0 req=1080x2280 d0
+08-07 17:53:10.094   952  3368 V WindowManager: Relayout hash=9c00d76, pid=7881: mAttrs={(0,0)(fillxfill) sim={adjust=resize} ty=BASE_APPLICATION wanim=0x1030303
+08-07 17:53:10.094   952  3368 V WindowManager:   fl=81810100
+08-07 17:53:10.094   952  3368 V WindowManager:   pfl=12020040
+08-07 17:53:10.094   952  3368 V WindowManager:   apr=LIGHT_NAVIGATION_BARS
+08-07 17:53:10.094   952  3368 V WindowManager:   bhv=DEFAULT
+08-07 17:53:10.094   952  3368 V WindowManager:   fitSides= naviIconColor=0
+08-07 17:53:10.094   952  3368 V WindowManager:   sfl=100000}
+08-07 17:53:10.096  7881  7881 I ViewRootImpl@d3f350c[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=5 res=0x1 s={true 512217319216} ch=false fn=95
+08-07 17:53:10.097  7881  7881 D ScrollView:  onsize change changed
+08-07 17:53:10.098   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:10.114   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:10.131   628   628 E SurfaceFlinger: Attempt to update InputPolicyFlags without permission ACCESS_SURFACE_FLINGER
+08-07 17:53:10.224  8085  8085 I Edge.badge: updateBadge item = com.android.systemui:-1 1
+08-07 17:53:10.225  4446  4446 I NotiProvider-Moden: NotificationListener.onNotificationPosted - com.android.systemui[ -1 / 2131428820 ] : charging_state
+08-07 17:53:10.226  1411  1411 D InterruptionStateProvider: No bubble up: not allowed to bubble: -1|com.android.systemui|2131428820|charging_state|10009
+08-07 17:53:10.228  4446  4446 I HMApplication: getWearableConnectionMgr() - sWConnectionMgr: com.samsung.android.hostmanager.connection.WearableConnectionManager@569c783
+08-07 17:53:10.228  4446  4446 I WearableConnectionManager: getConnectedBTAddress() :null
+08-07 17:53:10.228  4446  4446 W NotiProvider-Moden: NotificationListener.checkAndSendNotificationAhead() [ABORT] - isIsPeerAvailable == false
+08-07 17:53:10.228  1411  1411 D InterruptionStateProvider:  no Heads up : edgelighting enabled app. -1|com.android.systemui|2131428820|charging_state|10009
+08-07 17:53:10.230  2001  2001 I Launcher.NotificationListener: onNotificationPosted : com.android.systemui number : 0
+08-07 17:53:10.232  8085  8085 I Edge.badge: updateBadge item = com.estsoft.alyac:0 1
+08-07 17:53:10.232  2001  2001 I Launcher.NotificationListener: onNotificationPosted : com.estsoft.alyac number : 0
+08-07 17:53:10.233  4446  4446 I NotiProvider-Moden: NotificationListener.onNotificationPosted - com.estsoft.alyac[ 0 / 1000 ] : null
+08-07 17:53:10.235  4446  4446 I HMApplication: getWearableConnectionMgr() - sWConnectionMgr: com.samsung.android.hostmanager.connection.WearableConnectionManager@569c783
+08-07 17:53:10.235  4446  4446 I WearableConnectionManager: getConnectedBTAddress() :null
+08-07 17:53:10.235  4446  4446 W NotiProvider-Moden: NotificationListener.checkAndSendNotificationAhead() [ABORT] - isIsPeerAvailable == false
+08-07 17:53:10.242  1411  1612 D PeopleSpaceWidgetMgr: Sbn doesn't contain valid PeopleTileKey: null/-1/com.android.systemui
+08-07 17:53:10.249  1411  1411 D QS      : setQSExpansion 0.0 -118.475
+08-07 17:53:10.250  1411  1411 D QS      : setQSExpansion 0.0 -118.475
+08-07 17:53:10.250  1411  1411 D MediaControlPanel: mActionButtonNumCollapsed = 3, mActionButtonNumExpand = 4
+08-07 17:53:10.256  1411  1411 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.estsoft.alyac|1000|null|10372
+08-07 17:53:10.257  1411  1411 D InterruptionStateProvider:  no Heads up : edgelighting enabled app. 0|com.estsoft.alyac|1000|null|10372
+08-07 17:53:10.262  1411  1612 D PeopleSpaceWidgetMgr: Sbn doesn't contain valid PeopleTileKey: null/0/com.estsoft.alyac
+08-07 17:53:10.266  1411  1411 D QS      : setQSExpansion 0.0 -118.475
+08-07 17:53:10.266  1411  1411 D QS      : setQSExpansion 0.0 -118.475
+08-07 17:53:10.266  1411  1411 D MediaControlPanel: mActionButtonNumCollapsed = 3, mActionButtonNumExpand = 4
+08-07 17:53:10.283   952  1032 I GestureDetector: handleMessage TAP
+08-07 17:53:10.284   952   952 I GestureDetector: handleMessage TAP
+08-07 17:53:10.301  1411  1411 D QS      : setQSExpansion 0.0 -118.475
+08-07 17:53:10.301  1411  1411 D QS      : setQSExpansion 0.0 -118.475
+08-07 17:53:10.301  1411  1411 D MediaControlPanel: mActionButtonNumCollapsed = 3, mActionButtonNumExpand = 4
+08-07 17:53:10.330  7881  7881 I ViewInteraction: Checking 'MatchesViewAssertion{viewMatcher=(view has effective visibility <VISIBLE> and view.getGlobalVisibleRect() to return non-empty rectangle)}' assertion on view an instance of android.widget.TextView and view.getText() with or without transformation to match: is "Subtotal: ₩0"
+08-07 17:53:10.331  7881  7906 I TestRunner: finished: order_reset_after_cancel_from_accompaniment_menu(com.example.lunchtray.OrderFunctionalityTests)
